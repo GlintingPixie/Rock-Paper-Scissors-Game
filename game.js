@@ -16,8 +16,8 @@ function playGame()
     let HumanScore = 0;
     let ComputerScore = 0;
     
-    function playRound(computerChoice,humanChoice)
-        {
+    function playRound(computerChoice,humanChoice){
+    
             if (computerChoice == "rock")
             {
                 if (humanChoice == "paper")
@@ -72,6 +72,7 @@ function playGame()
         }
 
     }
+    
     for (let i = 0;i<5;i++){
         let computerChoice = getComputerChoice();
         let humanChoice = getHumanChoice();
