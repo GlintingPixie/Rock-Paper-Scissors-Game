@@ -72,22 +72,29 @@ function playGame()
         }
 
     }
-    
-    for (let i = 0;i<5;i++){
+
+    while (HumanScore < 5 && ComputerScore<5)
+    {
         let computerChoice = getComputerChoice();
         let humanChoice = getHumanChoice();
         playRound(computerChoice,humanChoice);
-        console.log(`Your Score: ${HumanScore} vs Computer Score: ${ComputerScore}`);
+        
     }
+    // for (let i = 0;i<5;i++){
+    //     let computerChoice = getComputerChoice();
+    //     let humanChoice = getHumanChoice();
+    //     playRound(computerChoice,humanChoice);
+    //     console.log(`Your Score: ${HumanScore} vs Computer Score: ${ComputerScore}`);
+    // }
 
-    if (HumanScore>ComputerScore)
-    {
-        console.log("Congrats! You are the winner");
-    }
-    else
-    {
-        console.log("You lose!");
-    } 
+    // if (HumanScore>ComputerScore)
+    // {
+    //     console.log("Congrats! You are the winner");
+    // }
+    // else
+    // {
+    //     console.log("You lose!");
+    // } 
 }
 
 playGame();
