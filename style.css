@@ -20,8 +20,13 @@ h1{
 }
 .score{
     text-align: center;
-    margin:100px;
+    margin:10px;
     color:green;
+}
+.moves{
+    text-align: center;
+    color: orange;
+    margin: 90px;   
 }
 .rock, .paper, .scissors{ 
 margin:10px;
