@@ -20,12 +20,12 @@ h1{
 }
 .score{
     text-align: center;
-    margin:40px;
+    margin:100px;
     color:green;
 }
 .rock, .paper, .scissors{ 
 margin:10px;
-padding:5px;
+padding: 10px 40px ;
 }
 button:hover{
     color:red;
